@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins';
+}
+
+/*-----header and necigation bar start--------*/
+
+.header
+{
+    width:100%;
+    background:linear-gradient(45deg, #ff7344 , #f8a932);
+}
+
+nav
+{
+    display:flex;
+    padding:0 50px;   
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav img
+{
+    width:50px;
+    height: 50px;
+}
+
+.nav-link
+{
+    text-align:right;
+}
+
+.nav-link ui li 
+{
+    list-style:none;
+    display: inline-block;
+    padding:0px 15px;
+}
+
+.nav-link ui li a
+
+{
+    text-decoration:none;
+    color:white;
+    font-size:13px;
+}
+
+/*-----header and necigation bar end--------*/
+
+
+/*-----container, half-width, h1 , p, and button start--------*/
+
+
+.container
+{
+    height: 550px;
+    margin-bottom:150px;
+}
+
+.half-width
+{
+    width:40%;
+    margin: 5%;
+    float:left;
+}
+
+h1
+{
+    font-size:50px;
+}
+
+.half-width h1 span
+{
+    color:darkorange;
+}
+
+p
+{
+    font-size:20px;
+    color:#7c7c7c;
+    padding: 50px 0;
+}
+
+.btn
+{
+    text-decoration:none;
+    color:#ffffff;
+    font-size:17px;
+    font-weight:600;
+    letter-spacing:1.5px;
+    padding:15px 20px;
+    background:linear-gradient(45deg, #ff7344 , #f8a932);
+    border-radius:25px;
+}
+
+.half-width img
+{
+    width: 80%;
+    margin-left:15%;
+}
+
+/*-----container, half-width, h1 , p, img and button end--------*/
+
+
+
+/*-----faiza about start --------*/ 
+
+
+.container-bg
+{
+    background-image: url(img/background01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container-bg img
+{
+    width: 100%;
+    margin-left:0;
+}
+
+#faiza-pic
+{
+    margin:3%;
+}
+
+.container-bg p
+{
+    padding:20px 0 40px;
+}
+
+
+/*-----faiza about end--------*/ 
+
+
+/*-----card section start --------*/ 
+
+
+#card-header
+{
+    width:60%; 
+    text-align:center;
+    margin-left: 50%;
+    transform:translate(-50%);
+}
+
+#card-header p
+{
+    padding:15px 0 40px;
+}
+
+.card-row
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-row h1 
+{
+    font-size:35px;
+    font-weight:600;
+}
+
+.card-row p
+{
+    color: #777;
+    font-size: 17px;
+    font-weight:300px;
+    line-height:22px;
+    padding:0;
+} 
+
+.card-col
+{
+    width:20%;
+    height:410px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 25px gray;
+    float:left;
+    border-radius:20px;
+    margin: 50px;
+}
+
+.card-col img
+{
+    width:100%;
+    border-radius:20px;
+}
+
+/*-----card section end --------*/ 
+
+/*-----social card  section start --------*/ 
+
+.social-container
+{
+    margin:0;
+    padding:0;
+    height:350px;
+    margin-top:400px
+    
+}
+
+.social-row
+{
+    width:80%;
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    transform:translate(-50%);
+    box-shadow:2px 2px 25px gray;
+    border-radius: 20px;
+}
+
+
+.social-col
+{
+   
+    text-align: center;
+    width: 35%;
+    margin-top: 30px;
+
+}
+
+.social-col p
+{
+    padding:0;
+    padding-bottom:30px;
+}
+
+/*-----social card  section end --------*/ 
+
+/*-----fotter  section start --------*/ 
+
+.footer-section
+{
+    text-align: center;
+    background:#0e0e0e;
+    margin:0;
+}
+
+.footer-section h1
+{
+    color:#fff;
+    padding-top:10px;
+}
+
+.footer-section h1 span
+{
+    color:darkorange;
+}
+
+.footer-section p
+{
+    color:#fff;
+    padding:0;
+
+}
+
+#footer-quotes
+{
+    padding-bottom:30px;
+}
+
+
+.footer-link
+{
+    padding-bottom:80px;
+}
+
+.footer-link a
+{
+    text-decoration: none;
+    padding:0 10px;
+    color:#fff;
+}
+
+.footer-section a
+{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+
+/*-----fotter  section end --------*/
+
